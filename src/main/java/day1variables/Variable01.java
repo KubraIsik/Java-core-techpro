@@ -50,5 +50,12 @@ public class Variable01 {
         System.out.println("Id int greater than short comparison = " + comparison);
         System.out.println("Next charachter after = " + oneCharacter +":" + nextChar);
 
+        // all valid in Java too:
+        System.out.println(  "Addition += : "     + (a += 2) + "\n"
+                           + "Subtraction -= : "  + (b -= 1) + "\n"
+                           + "Multiplication *= : "  + (c *= 4) + "\n"
+                           + "Division /= : "     + (c /= 3) + "\n"
+                           + "Mode %= : "     + (c %= 3));
+
     }
 }
