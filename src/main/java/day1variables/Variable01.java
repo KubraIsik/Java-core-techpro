@@ -21,8 +21,10 @@ public class Variable01 {
         boolean trueOrFalse = true;
         char oneCharacter = 'A';
 
-        // non - primitive data types
+        // non - primitive data types (pre-defined in Java)
         String hi = "Hello World";
+        // Arrays, Classes, Interfaces are the other non - primitive reference type data types
+        // created by the programmer.
 
         // print to the console syntax
         System.out.println(hi);
