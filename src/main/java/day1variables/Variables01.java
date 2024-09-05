@@ -1,6 +1,6 @@
 package day1variables;
 
-public class Variable01 {
+public class Variables01 {
 
     public static void main(String[] args){
         // comment line
