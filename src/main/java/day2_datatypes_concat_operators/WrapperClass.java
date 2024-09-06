@@ -3,33 +3,33 @@ package day2_datatypes_concat_operators;
 public class WrapperClass {
     public static void main(String[] args) {
 
-        /*Java primitive data tiplerine yeni ozellikler(methodlar) ekleyerek yeni bir yapi olusturdu.
-        Bu yapiya wrapper class denir.
+        /*Java creates a new data type structure by adding new properties(methods) to primitive data types.
+        This new structure is called Wrapper Class.
 
-        Wrapper class'lar, Java'nın primitive veri türlerini object olarak
-        temsil etmek için kullandığı class'lardir. Bu özellik, primitive veri türlerini koleksiyonlarda
-        (örneğin ArrayList gibi) kullanabilmek için oldukça kullanışlıdır, çünkü Java'da koleksiyonlar
-        sadece Object referans türlerini kabul eder. Ayrica en onemlisi girdigimiz veriler uzerinde
-        method kullaniminin da yolunu acar.*/
+        Wrapper classes are classes that Java uses to represent primitive data types as objects.
+        This is very useful for using primitive data types in collections (such as ArrayList),
+        because in Java collections only accept Object reference types. Most importantly,
+        it also paves the way for the use of methods on the data we input.
+        */
 
-        //Wrapper'lar buyuk harfle baslar cunku class'tirlar.
         // primitive          : char          - boolean - byte - short - int         - long  - float  - double
         //wrapper class       : Character     - Boolean - Byte - Short - Integer     - Long  - Float  - Double
 
-        int i = 12; // primitive bir variable oluşturduk.
+        int i = 12; // primitive variable created.
 
-        Integer k = 12; // wrapper class veri tipi oluşturuldu.
+        Integer k = 12; // a data type as wrapper class created.
         // k.methods will be activated
 
         //Autoboxing - Unboxing
-        /*Java'da primitive(ilkel) türler ve wrapper sınıfları arasında otomatik dönüşüm yapabilen
-        autoboxing ve unboxing mekanizmaları vardır. Autoboxing, primitive bir türü otomatik olarak onun
-        wrapper sınıfına çevirir. Örneğin, long'u Long'a dönüştürür. Unboxing ise tam tersi bir işlem yapar,
-        Long'u long'a dönüştürür. Ikisi de otomatik gerceklesir.*/
+        /*Java has autoboxing and unboxing mechanisms that can automatically convert
+        between primitive types and wrapper classes. Autoboxing automatically converts
+        a primitive type into its wrapper class. For example, it converts long to Long.
+        Unboxing does the opposite, converting Long to long. Both are converted automaticly.*/
 
         // Autoboxing
         int num = 13;
         Integer wrapperNum = num;
+
         // Unboxing
         Byte s = 19;
         byte primitiveS = s;
