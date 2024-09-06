@@ -30,9 +30,5 @@ public class Variables01 {
         System.out.print("no new line after this line");
         System.out.print(" yes");
 
-
-
-
-
     }
 }
