@@ -13,12 +13,12 @@ public class Scanner06 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Yaşınızı giriniz: ");
+        System.out.print("Yaşınızı giriniz: ");
         int age = input.nextInt();
 
         input.nextLine(); // Kullanılmayan yeni satır karakterini okuyup atar.
 
-        System.out.println("Adınızı giriniz: ");
+        System.out.print("Adınızı giriniz: ");
         String name = input.nextLine();
 
         // 18. satırda neden böyle boş bir line okuma ekledik?
