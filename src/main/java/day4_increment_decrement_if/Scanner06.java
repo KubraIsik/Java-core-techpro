@@ -31,5 +31,6 @@ public class Scanner06 {
 
         /*Bu sorunu çözmenin yaygın bir yolu, sayısal girdi aldıktan sonra bir nextLine() çağrısı
         ekleyerek kalan yeni satır karakterini temizlemektir*/
+
     }
 }
