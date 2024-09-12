@@ -23,5 +23,7 @@ public class Switch03 {
                     default -> "Unknown month";
         };
         System.out.println("Season: "+season);
+
+        input.close(); // close Scanner object
     }
 }
