@@ -1,4 +1,4 @@
-package day10loops;
+package day10_loops;
 
 import java.util.Scanner;
 

@@ -1,6 +1,4 @@
-package day10loops;
-
-import java.util.Scanner;
+package day10_loops;
 
 public class ForLoops01 {
     public static void main(String[] args) {

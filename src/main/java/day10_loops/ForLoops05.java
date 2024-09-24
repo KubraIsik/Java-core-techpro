@@ -1,4 +1,4 @@
-package day10loops;
+package day10_loops;
 
 public class ForLoops05 {
     public static void main(String[] args) {

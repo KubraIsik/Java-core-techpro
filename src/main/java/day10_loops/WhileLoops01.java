@@ -1,4 +1,4 @@
-package day10loops;
+package day10_loops;
 
 public class WhileLoops01 {
     public static void main(String[] args) {
